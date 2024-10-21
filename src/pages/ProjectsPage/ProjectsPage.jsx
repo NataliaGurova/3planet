@@ -11,28 +11,31 @@ const ProjectsPage = () => {
   const [loading, setLoading] = useState(true); // Стан завантаження
   const [error, setError] = useState(null); // Стан для обробки помилок
 
-  const fetchProjects = async () => {
+
+  useEffect(() => {
+
+    // setLoading(true);
+    const fetchProjects = async () => {
       try {
         const fetchedProjects = await getProjects(); // Отримуємо проекти
         setProjects(fetchedProjects); // Оновлюємо стан проектів
         setLoading(false); // Оновлюємо стан завантаження
       } catch (error) {
-        setError(error); // Якщо виникає помилка
+        setError(error.message); // Якщо виникає помилка
         setLoading(false);
       }
   };
-  
-  useEffect(() => {
+
     fetchProjects();
   }, []); // Порожній масив залежностей, щоб виконати запит лише один раз при завантаженні компонента
 
-  if (loading) {
-    return <p>Завантаження...</p>; // Відображаємо повідомлення про завантаження
-  }
+  // if (loading) {
+  //   return <p>Завантаження...</p>; // Відображаємо повідомлення про завантаження
+  // }
 
-  if (error) {
-    return <p>Помилка завантаження проектів: {error.message}</p>; // Відображаємо повідомлення про помилку
-  }
+  // if (error) {
+  //   return <p>Помилка завантаження проектів: {error.message}</p>; // Відображаємо повідомлення про помилку
+  // }
 
 
   return (
@@ -40,8 +43,8 @@ const ProjectsPage = () => {
       <DocTitle>Projects</DocTitle>
       <div className={css.projectContainer}>
         <h2 className={css.text}>Наші проекти</h2>
-        <ProjectsList projects={projects} />
-        {/* {projects.length > 0 && <ProjectsList projects={projects} />} */}       
+        {/* <ProjectsList projects={projects} /> */}
+        {projects.length > 0 && <ProjectsList projects={projects} />}       
       </div>
     </>
   );

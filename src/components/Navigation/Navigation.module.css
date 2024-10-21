@@ -1,6 +1,5 @@
 .headerContainer {
   /* display: flex; */
-  max-width: 1392px;
   margin: 0 auto;
   padding: 15px 40px;
   background: #2b4170;
@@ -11,6 +10,7 @@
 }
 
 .boxContainer {
+  max-width: 1392px;
   display: flex;
 }
 

@@ -7,7 +7,7 @@ import css from "./ProjectsList.module.css"
 const ProjectsList = ({projects}) => {
 
   const location = useLocation();
-console.log( location);
+console.log(projects);
 
   return (
     <div className={css.projectsSection}>
