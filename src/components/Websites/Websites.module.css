@@ -1,0 +1,91 @@
+.webSection {
+  padding: 15px 40px;
+  margin-top: 15px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  color: #1b1c1d;
+}
+
+.webTitle {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.span {
+  
+  list-style-type: none;
+}
+
+.distributorName {
+  display: inline-block;
+  width: 350px;
+  
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.link {
+  margin-left: 0 auto;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+
+
+
+
+
+
+.webSection {
+  padding: 15px 40px;
+  margin-top: 15px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  color: #1b1c1d;
+}
+
+.webTitle {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  /* flex-direction: column; */
+  list-style-type: none;
+  padding: 0;
+}
+
+.listItem {
+  display: flex;
+  /* flex-direction: column; */
+  margin-bottom: 12px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0066cc; /* Колір посилання */
+  margin-bottom: 5px;
+}
+
+.link:hover {
+  text-decoration: underline; /* Додаємо підкреслення при наведенні */
+}

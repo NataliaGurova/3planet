@@ -1,0 +1,61 @@
+.projectsSection {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.listProjects {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.itemProjects {
+  
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+border: 1px solid black;
+border-radius: 15px;
+background-color: aqua;
+}
+
+.itemProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 350px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  /* background-color: rgba(0, 255, 255, 0.5); Напівпрозорий фон */
+  background-color: rgba(43, 65, 112, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анімація для об'ємного ефекту */
+  /* overflow: hidden; */
+}
+
+/* Ефект при наведенні */
+.itemProjects:hover {
+  transform: scale(1.05); /* Збільшення розміру */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Об'ємний тіньовий ефект */
+  background-color: rgba(43, 65, 112, 0.8); /* Трохи менш прозорий фон при наведенні */
+}
+
+
+.cardProjects{
+/* display: inline-block; */
+  margin-bottom: 10px;
+}
+
+.imgProjects {
+  display: flex;
+  background: transparent;
+  /* width: 250px; */
+  height: 290px;
+}
+.textProjects {
+}
