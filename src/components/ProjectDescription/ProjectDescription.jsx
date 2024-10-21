@@ -5,26 +5,20 @@ import { BsPeopleFill } from "react-icons/bs";
 import { GiEmptyHourglass } from "react-icons/gi";
 import { MdChildCare } from "react-icons/md";
 
-// import { Link, useLocation } from "react-router-dom";
-// import { useRef } from "react";
-// import manchkinImage from '../../../src/images/photo/manchkin1.png';
-// import projects from "../../../package.json"
 
 const ProjectDescription = ({ projectsId }) => {
-  // const location = useLocation()
+  const project = projects[projectsId - 1];
 
-  // const backLinkRef = useRef(location.state?.from || '/');
-  // // const backLinkRef = useRef(location.state ?? "/");
+if (!project) {
+  return <p>Проект не знайдено</p>;
+}
 
-  // console.log(location.state);
-  // console.log(backLinkRef);
-  
-  const { imageSmall, name, description, players, timer, age } = projects[projectsId-1];
+const { imageSmall, name, description, players, timer, age } = project;
+  // const { imageSmall, name, description, players, timer, age } = projects[projectsId-1];
 
   return (
     <main className={css.itemContainer}>
       <div>
-    {/* <Link to={backLinkRef.current}>Назад до Проектів</Link> */}
       <div>
         <img src={imageSmall} alt={name} />
       </div>

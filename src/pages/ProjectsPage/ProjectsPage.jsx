@@ -39,15 +39,9 @@ const ProjectsPage = () => {
     <>
       <DocTitle>Projects</DocTitle>
       <div className={css.projectContainer}>
-        {/* {loading ? (
-          <Loader />
-        ) : (
-          <> */}
         <h2 className={css.text}>Наші проекти</h2>
-        {projects.length > 0 && <ProjectsList projects={projects} />}
-        
-          {/* </>
-        )} */}
+        <ProjectsList projects={projects} />
+        {/* {projects.length > 0 && <ProjectsList projects={projects} />} */}       
       </div>
     </>
   );
