@@ -25,7 +25,8 @@ body {
   color: var(--main-text);
 
 
-   background-image: url(src/images/sky2.jpg);
+    background-image: url(./images/sky2.jpg);
+   /* background: url("./photo/photo_stones.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
