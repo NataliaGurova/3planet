@@ -12,28 +12,28 @@ const ProjectDescription = ({ project }) => {
 
   return (
     <main className={css.itemContainer}>
-      <div>
-        <div>
-          <img src={imageSmall} alt={name} />
-        </div>
-        <div>
-          <ul>
-            <li>
-              <BsPeopleFill />
+      <div className={css.card}>
+        {/* <div> */}
+          <img src={imageSmall} alt={name} className={css.imgCard}/>
+        {/* </div> */}
+        {/* <div> */}
+          <ul className={css.iconList}>
+            <li className={css.iconItem}>
+              <BsPeopleFill size="30px"/>
               <p>{players}</p>
             </li>
-            <li>
-              <GiEmptyHourglass />
+            <li className={css.iconItem}>
+              <GiEmptyHourglass size="30px"/>
               <p>{timer}</p>
             </li>
-            <li>
-              <MdChildCare />
+            <li className={css.iconItem}>
+              <MdChildCare size="30px"/>
               <p>{age}</p>
             </li>
           </ul>
-        </div>
+        {/* </div> */}
       </div>
-      <div>
+      <div className={css.description}>
         <h1>{name}</h1>
         <p className={css.textDescription}>{description}</p>
       </div>

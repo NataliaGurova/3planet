@@ -1,0 +1,9 @@
+.detailsContainer {
+    padding: 15px 40px;
+    max-width: 1392px;
+    margin: 0 auto;
+}
+
+.arrowIcon {
+  transform: scaleX(-1);
+}

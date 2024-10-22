@@ -1,4 +1,46 @@
+.itemContainer {
+display: flex;
+margin-top: 15px;
+}
+
+.imgCard {
+  margin: 20px;
+  width: 215px;
+  height: 240px;
+}
+
+.iconList {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 2px solid #2b4170;
+  background-color: rgba(43, 65, 112, 0.5);
+  padding: 5px;
+}
+
+.iconItem {
+  /* outline: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  
+  align-items: center;
+}
+
+.description {
+  margin-left: 40px;
+}
+
 .textDescription {
-  width: 200px; /* або будь-яка інша ширина */
+  width: 600px; /* або будь-яка інша ширина */
   word-wrap: break-word; /* Переносити слова, якщо вони довші за ширину контейнера */
+  font-family: "PT Serif", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+  border-radius: 15px;
+  border: 2px solid #2b4170;
+  background-color: rgba(43, 65, 112, 0.5);
+  padding: 10px;
 }

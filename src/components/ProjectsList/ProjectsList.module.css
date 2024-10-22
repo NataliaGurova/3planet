@@ -4,23 +4,12 @@
 }
 
 .listProjects {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
 }
-/* 
-.itemProjects {
-  
-  width: 250px;
-  height: 400px;
-  padding: 10px;
-border: 1px solid black;
-border-radius: 15px;
-background-color: aqua;
-} */
 
 .itemProjects {
   display: flex;
@@ -28,9 +17,10 @@ background-color: aqua;
   align-items: center;
   justify-content: space-between;
   width: 260px;
-  height: 350px;
-  padding: 10px;
-  border: 2px solid black;
+  height: 340px;
+  padding: 20px;
+  /* border: 2px solid rgba(43, 65, 112, 1); */
+  border: 2px solid #2b4170;
   border-radius: 15px;
   /* background-color: rgba(0, 255, 255, 0.5); Напівпрозорий фон */
   background-color: rgba(43, 65, 112, 0.5);
@@ -46,18 +36,36 @@ background-color: aqua;
 }
 
 
-.cardProjects{
-display: inline-block;
-  margin-bottom: 10px;
+.imgProjects {
+  height: 240px;
+  /* background: transparent;
+  width: 220px;
+  margin-bottom: auto; */
 }
 
-.imgProjects {
-  /* display: block; */
-  background: transparent;
-  width: 220px;
-  
-  /* height: 290px; */
+.cardProjects{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
 }
 .textProjects {
-  width: 180px;
+  padding: 10px 10px 0 10px; /* Відступи всередині заголовка */
+  text-align: center; /* Вирівнювання тексту по центру */
+  text-shadow:  2px 2px 1px rgb(132, 5, 27);;
+}
+
+
+/* 
+.cardProjects {
+  position: relative;
+  display: flex;
+  justify-content: center; Вирівнювання по центру */
+  /* align-items: flex-end;*/   /* Вирівнювання заголовка внизу картки */
+  /* height: 100%;
+}  */
+
+.textProjects {
+  /* border: 2px solid black; Чорний ободок навколо заголовка */
+  /* box-sizing: border-box; Щоб ободок не розтягував ширину заголовка */
 }

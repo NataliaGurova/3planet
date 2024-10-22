@@ -4,6 +4,8 @@ import ProjectDescription from "../../components/ProjectDescription/ProjectDescr
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { getProjectById } from "../../api/api";
+import css from "./ProjectsDetailsPage.module.css";
+import { BsHeartArrow } from "react-icons/bs";
 
 const ProjectsDetailsPage = () => {
 
@@ -51,8 +53,8 @@ const ProjectsDetailsPage = () => {
   return (
     <>
       <DocTitle>ProjectsDetailsPage</DocTitle>
-      <div>
-        <Link to={backLinkRef.current}>Назад до Проектів</Link>
+      <div className={css.detailsContainer}>
+        <Link to={backLinkRef.current}><BsHeartArrow size="40px" style={{ transform: 'scaleX(-1)' }}/></Link>
         {/* {loading ? (
           <Loader />
         ) : (

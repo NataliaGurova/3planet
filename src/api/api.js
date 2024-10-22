@@ -1,9 +1,8 @@
 import axios from 'axios';
-// axios.defaults.baseURL = "/projects.json";
+
 
 export const getProjects = async () => {
     const response = await axios.get("/projects.json");
-    // const projects = response.data.results
     const projects = response.data;
     console.log(projects);
     return projects;
@@ -22,9 +21,3 @@ export const getProjects = async () => {
     
     return project;
   };
-  
-  // console.log(getProjectById("1"));
-
-// export const getProductById = (productId) => {
-//   return products.find((product) => product.id === productId);
-// };
