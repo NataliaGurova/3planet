@@ -47,15 +47,17 @@ background-color: aqua;
 
 
 .cardProjects{
-/* display: inline-block; */
+display: inline-block;
   margin-bottom: 10px;
 }
 
 .imgProjects {
-  display: flex;
+  /* display: block; */
   background: transparent;
-  /* width: 250px; */
-  height: 290px;
+  width: 220px;
+  
+  /* height: 290px; */
 }
 .textProjects {
+  width: 180px;
 }

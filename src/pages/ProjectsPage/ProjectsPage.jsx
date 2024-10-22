@@ -5,8 +5,7 @@ import css from "./ProjectsPage.module.css"
 import { getProjects } from "../../api/api";
 
 const ProjectsPage = () => {
-  
-  
+    
   const [projects, setProjects] = useState([]); // Зберігаємо проекти в стані
   const [loading, setLoading] = useState(true); // Стан завантаження
   const [error, setError] = useState(null); // Стан для обробки помилок
@@ -14,7 +13,6 @@ const ProjectsPage = () => {
 
   useEffect(() => {
 
-    // setLoading(true);
     const fetchProjects = async () => {
       try {
         const fetchedProjects = await getProjects(); // Отримуємо проекти
@@ -29,14 +27,15 @@ const ProjectsPage = () => {
     fetchProjects();
   }, []); // Порожній масив залежностей, щоб виконати запит лише один раз при завантаженні компонента
 
-  // if (loading) {
-  //   return <p>Завантаження...</p>; // Відображаємо повідомлення про завантаження
-  // }
+  if (loading) {
+    return <p>Завантаження...</p>; // Відображаємо повідомлення про завантаження
+  }
 
-  // if (error) {
-  //   return <p>Помилка завантаження проектів: {error.message}</p>; // Відображаємо повідомлення про помилку
-  // }
-
+  if (error) {
+    return <p>Помилка завантаження проектів: {error.message}</p>; // Відображаємо повідомлення про помилку
+  }
+  
+  console.log(projects);
 
   return (
     <>

@@ -2,9 +2,9 @@ import { NavLink } from 'react-router-dom';
 import css from './Navigation.module.css';
 
 import { FaPhone } from 'react-icons/fa6';
-// import { MdEmail } from 'react-icons/md';
 import { SiMinutemailer } from "react-icons/si";
-// import { BsFillGeoAltFill } from 'react-icons/bs';
+// import { MdEmail } from 'react-icons/md';
+
 // import clsx from 'clsx';
 
 import logo1 from '../../images/3Planet-logo.svg';

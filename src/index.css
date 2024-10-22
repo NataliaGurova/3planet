@@ -12,7 +12,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-style: normal;
@@ -26,7 +26,6 @@ body {
 
 
     background-image: url(./images/sky2.jpg);
-   /* background: url("./photo/photo_stones.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,8 +40,8 @@ h5,
 h6,
 p {
   margin: 0;
-  /* padding: 0;
-  color: #101828; */
+  padding: 0;
+  /* color: #101828; */
 }
 
 p:last-child {
