@@ -10,7 +10,7 @@ export const getProjects = async () => {
   };
   
   export const getProjectById = async (projectId) => {
-    const response = await axios.get("/public/projects.json"); // Отримуємо всі проєкти
+    const response = await axios.get("/projects.json"); // Отримуємо всі проєкти
     const projects = response.data;
     
     // Знаходимо проект по ID
