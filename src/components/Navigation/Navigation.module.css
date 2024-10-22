@@ -23,7 +23,10 @@
   /* background-color: #fff; */
   
   /* width: 100%; */
+}
 
+.navProject, .navWeb {
+  font-size: 18px;
 }
 /* 
 .nav {
