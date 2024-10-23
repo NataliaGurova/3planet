@@ -7,7 +7,7 @@ import { SiMinutemailer } from "react-icons/si";
 
 // import clsx from 'clsx';
 
-import logo1 from '../../images/3Planet-logo.svg';
+import logo1 from '../../images/3Planet-Logo-red.svg';
 // import logo2 from '../images/logo2.png';
 
 
@@ -26,7 +26,7 @@ const Navigation = () => {
           }
           >
             <div className={css.logoContainer}>
-              <img src={logo1} alt="Logo 1" className={css.logoImage} width="100"/>
+              <img src={logo1} alt="Logo 1" className={css.logoImage} />
             {/* <Icon id="alcove" width="30" height="30" /> */}
           </div>
         </NavLink>

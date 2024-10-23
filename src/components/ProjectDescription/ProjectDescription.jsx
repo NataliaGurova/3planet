@@ -8,7 +8,7 @@ const ProjectDescription = ({ project }) => {
 
 
   // Деструктуруємо поля проекту
-  const { imageSmall, name, description, players, timer, age } = project;
+  const { imageSmall, name, nameLogo, description, players, timer, age } = project;
 
   return (
     <main className={css.itemContainer}>
@@ -34,7 +34,8 @@ const ProjectDescription = ({ project }) => {
         {/* </div> */}
       </div>
       <div className={css.description}>
-        <h1>{name}</h1>
+        <img src={nameLogo} alt={name} className={css.imgLogoM}/>
+        {/* <h1>{name}</h1> */}
         <p className={css.textDescription}>{description}</p>
       </div>
     </main>

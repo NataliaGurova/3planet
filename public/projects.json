@@ -2,6 +2,7 @@
   {
     "id": "1",
     "name": "Манчкін",
+    "nameLogo": "/photo/munchkin-1.png",
     "players": "3-6",
     "timer": "30 хв",
     "age": "10 +",
@@ -12,6 +13,7 @@
   {
     "id": "2",
     "name": "Манчкін 2. Скажена Сокира",
+    "nameLogo": "/photo/munchkin-1.png",
     "players": "3-6",
     "timer": "30 хв",
     "age": "10 +",
@@ -22,6 +24,7 @@
   {
     "id": "3",
     "name": "Манчкін 3. Кліричні Огріхи",
+    "nameLogo": "/photo/munchkin-1.png",
     "players": "3-6",
     "timer": "30 хв",
     "age": "10 +",
@@ -32,6 +35,7 @@
   {
     "id": "4",
     "name": "Манчкін Легенди",
+    "nameLogo": "/photo/munchkin-Legends.png",
     "players": "3-6",
     "timer": "30 хв",
     "age": "12 +",
@@ -42,6 +46,7 @@
   {
     "id": "5",
     "name": "Манчкін Вархамер 40К",
+    "nameLogo": "/photo/munchkin-1.png",
     "players": "3-6",
     "timer": "30 хв",
     "age": "12 +",
@@ -52,6 +57,7 @@
   {
     "id": "6",
     "name": "Манчкін Стимпанк",
+    "nameLogo": "/photo/munchkin-1.png",
     "players": "3-6",
     "timer": "60 хв",
     "age": "12 +",
@@ -62,6 +68,7 @@
   {
     "id": "7",
     "name": "Манчкін Дракони. Міні-колекція",
+    "nameLogo": "/photo/munchkin-1.png",
     "players": "3-6",
     "timer": "30 хв",
     "age": "10 +",
@@ -72,6 +79,7 @@
   {
     "id": "8",
     "name": "Манчкін Нечиста сила. Міні-колекція",
+    "nameLogo": "/photo/munchkin-1.png",
     "players": "3-6",
     "timer": "30 хв",
     "age": "12 +",
@@ -82,6 +90,7 @@
   {
     "id": "9",
     "name": "Міконки",
+    "nameLogo": "/photo/micons-Logo.svg",
     "players": "2-4",
     "timer": "20 хв",
     "age": "3 +",

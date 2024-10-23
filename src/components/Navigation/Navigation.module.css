@@ -75,7 +75,11 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative; */
-    fill: #e3ea19;
+    /* fill: #e3ea19; */
+    fill: #dae01a;
+    fill: #b50828;
+    /* fill: #ea193f; */
+    
 }
 
 .navLogo {
@@ -88,19 +92,19 @@
 }
 
 .logoImage {
-  fill: #e3ea19;
-  stroke: #e3ea19;
-
+  /* fill: #e3ea19;
+  stroke: #e3ea19; */
+  width: 160px;
 }
 
 .navLogo:hover, .navProject:hover, .navWeb:hover, 
 .navLogo:focus, .navProject:focus, .navWeb:focus {
-  color: #e3ea19;
+  color: #dae01a;
 }
 
 .navLogo:hover, .navProject:hover, .navWeb:hover, .tel:hover, .email:hover,
 .navLogo:focus, .navProject:focus, .navWeb:focus {
-  color: #e3ea19;
+  color: #dae01a;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); /* Тінь для об'ємного ефекту */
   /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
   transform: scale(1.05); /* Легке збільшення тексту */

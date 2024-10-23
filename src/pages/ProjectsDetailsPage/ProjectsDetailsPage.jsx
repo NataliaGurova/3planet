@@ -54,7 +54,7 @@ const ProjectsDetailsPage = () => {
     <>
       <DocTitle>ProjectsDetailsPage</DocTitle>
       <div className={css.detailsContainer}>
-        <Link to={backLinkRef.current}><BsHeartArrow size="40px" style={{ transform: 'scaleX(-1)' }}/></Link>
+        <Link to={backLinkRef.current}><BsHeartArrow size="40px" className={css.arrowIcon}/></Link>
         {/* {loading ? (
           <Loader />
         ) : (

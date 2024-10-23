@@ -6,4 +6,10 @@
 
 .arrowIcon {
   transform: scaleX(-1);
+  margin-left: 20px;
+}
+
+.arrowIcon:focus, .arrowIcon:hover {
+  transform: scale(1.05);
+  fill: #dae01a;
 }
