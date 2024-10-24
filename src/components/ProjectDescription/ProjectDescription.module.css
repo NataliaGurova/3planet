@@ -14,7 +14,7 @@ margin-top: 15px;
   margin: 20px;
   margin-top: 40px;
   justify-content: space-between;
-  border-radius: 15px;
+  border-radius: 5px;
   border: 2px solid #2b4170;
   background-color: rgba(43, 65, 112, 0.5);
   padding: 5px;
@@ -30,17 +30,22 @@ margin-top: 15px;
 }
 
 .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
   color: #2b4170;
   margin-left: auto;
   margin-top: 15px;
   padding: 30px;
-   background-color: rgba(222, 227, 238, 0.7);
+  background-color: rgba(222, 227, 238, 0.7);
 }
 
 .textDescription {
   width: 900px; /* або будь-яка інша ширина */
   word-wrap: break-word; /* Переносити слова, якщо вони довші за ширину контейнера */
-  font-family: "PT Serif", sans-serif;
+  font-family: "PT Serif", serif;
   font-size: 18px;
   font-weight: 400;
 

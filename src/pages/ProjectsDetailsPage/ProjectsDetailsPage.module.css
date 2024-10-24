@@ -11,5 +11,5 @@
 
 .arrowIcon:focus, .arrowIcon:hover {
   transform: scale(1.05);
-  fill: #dae01a;
+  fill: #FFC531;
 }

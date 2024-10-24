@@ -78,7 +78,7 @@
     position: relative; */
     /* fill: #e3ea19; */
     fill: #FFC531;
-    fill: #b50828;
+    /* fill: #b50828; */
     
 }
 
@@ -99,7 +99,7 @@
 
 .navLogo:hover, .navProject:hover, .navWeb:hover, 
 .navLogo:focus, .navProject:focus, .navWeb:focus {
-  color: #dae01a;
+  /* color: #dae01a; */
   color: #FFC531;
 }
 
