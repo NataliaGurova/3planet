@@ -35,7 +35,7 @@ const Navigation = () => {
             Проекти
           </NavLink>
           <NavLink to="/websites" className={css.navWeb}>
-            Наші Партнери
+            Партнери
           </NavLink>
           {/* <NavLink to="/board" className={css.navBoard}>
             Board

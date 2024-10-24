@@ -11,7 +11,7 @@
       }
 
       .cls-3 {
-        fill: #fff;
+        fill: #FFC531;
       }
 
       .cls-4 {
@@ -19,7 +19,7 @@
       }
 
       .cls-5 {
-        fill: #c9cf16;
+        fill: #FFC531;
       }
     </style>
     <linearGradient id="linear-gradient" x1="34.74" y1="43.21" x2="39.06" y2="23.89" gradientUnits="userSpaceOnUse">

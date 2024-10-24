@@ -10,6 +10,7 @@
 }
 
 .boxContainer {
+  margin: 0 auto;
   max-width: 1392px;
   display: flex;
 }
@@ -76,9 +77,8 @@
     background-position: center;
     position: relative; */
     /* fill: #e3ea19; */
-    fill: #dae01a;
+    fill: #FFC531;
     fill: #b50828;
-    /* fill: #ea193f; */
     
 }
 
@@ -100,11 +100,13 @@
 .navLogo:hover, .navProject:hover, .navWeb:hover, 
 .navLogo:focus, .navProject:focus, .navWeb:focus {
   color: #dae01a;
+  color: #FFC531;
 }
 
 .navLogo:hover, .navProject:hover, .navWeb:hover, .tel:hover, .email:hover,
 .navLogo:focus, .navProject:focus, .navWeb:focus {
   color: #dae01a;
+  color: #FFC531;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); /* Тінь для об'ємного ефекту */
   /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
   transform: scale(1.05); /* Легке збільшення тексту */
