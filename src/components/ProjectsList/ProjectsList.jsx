@@ -16,9 +16,9 @@ const ProjectsList = ({projects}) => {
           {projects.map((project) => (
               <li key={project.id} className={css.itemProjects}>
                 <NavLink to={`/projects/${project.id}`} state={location}>
-                  {/* <div className={css.imgProjects}> */}
+                  <div className={css.divImgProjects}>
                     <img src={project.imageSmall} alt={project.name} className={css.imgProjects}/>
-                  {/* </div> */}
+                  </div>
                   {/* <div className={css.cardProjects}> */}
                   <h4 className={css.textProjects}>
                     {project.name.split('.').map((part, index) => (

@@ -1,4 +1,4 @@
-.webSection {
+/* .webSection {
   padding: 15px 40px;
   margin-top: 15px;
   background-color: #f9f9f9;
@@ -7,7 +7,7 @@
 
   border-radius: 5px;
   color: #1b1c1d;
-}
+} */
 
 .webTitle {
   font-size: 24px;
@@ -61,10 +61,10 @@
   padding: 15px 40px;
   margin-top: 15px;
   /* background-color: #f9f9f9; */
-  background-color: rgba(222, 227, 238, 0.9);
+  /* background-color: rgba(222, 227, 238, 0.9);
 
   border-radius: 5px;
-  color: #1b1c1d;
+  color: #1b1c1d; */
 }
 
 .webTitle {
@@ -81,8 +81,12 @@
 
 .listItem {
   display: flex;
-  /* flex-direction: column; */
+  padding: 10px 20px;
   margin-bottom: 12px;
+
+  background-color: rgba(222, 227, 238, 0.9);
+  border-radius: 5px;
+  color: #1b1c1d;
 }
 
 .link {

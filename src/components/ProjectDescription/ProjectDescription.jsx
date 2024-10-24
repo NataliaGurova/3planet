@@ -13,9 +13,9 @@ const ProjectDescription = ({ project }) => {
   return (
     <main className={css.itemContainer}>
       <div className={css.card}>
-        {/* <div> */}
+        <div className={css.divImgCard}>
           <img src={imageSmall} alt={name} className={css.imgCard}/>
-        {/* </div> */}
+        </div>
         {/* <div> */}
           <ul className={css.iconList}>
             <li className={css.iconItem}>
@@ -35,7 +35,6 @@ const ProjectDescription = ({ project }) => {
       </div>
       <div className={css.description}>
         <img src={nameLogo} alt={name} className={css.imgLogoM}/>
-        {/* <h1>{name}</h1> */}
         <p className={css.textDescription}>{description}</p>
       </div>
     </main>

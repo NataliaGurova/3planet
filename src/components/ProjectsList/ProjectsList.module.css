@@ -35,9 +35,15 @@
   background-color: rgba(43, 65, 112, 0.8); /* Трохи менш прозорий фон при наведенні */
 }
 
+.divImgProjects {
+  background-color: white;
+  width: 217px;
+
+}
 
 .imgProjects {
   height: 240px;
+  margin: 0 auto;
   /* background: transparent;
   width: 220px;
   margin-bottom: auto; */

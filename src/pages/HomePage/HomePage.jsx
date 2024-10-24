@@ -5,7 +5,7 @@ import css from "./HomePage.module.css"
 const HomePage = () => {
   return (
     <main>
-      <DocTitle>Logo сайта 3 Planet</DocTitle>
+      <DocTitle>3 Planet - рекламний опис...</DocTitle>
       <div className={css.homeContainer}>
         <h1>NewGame in Homepage</h1>
         {/* <PhotoList/> */}
