@@ -10,6 +10,6 @@
 }
 
 .arrowIcon:focus, .arrowIcon:hover {
-  transform: scale(1.05);
+  transform: scale(-1.05);
   fill: #FFC531;
 }
