@@ -32,7 +32,7 @@ const Navigation = () => {
         </NavLink>
           
           <NavLink to="/projects" className={css.navProject}>
-            Проекти
+            Проєкти
           </NavLink>
           <NavLink to="/websites" className={css.navWeb}>
             Партнери
