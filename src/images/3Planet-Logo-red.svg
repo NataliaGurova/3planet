@@ -7,19 +7,19 @@
       }
 
       .cls-2 {
-        fill: #b50828;
+        fill: #231f20;
       }
 
       .cls-3 {
-        fill: #FFC531;
+        fill: #fff;
       }
 
       .cls-4 {
-        fill: #181716;
+        fill: #fff;
       }
 
       .cls-5 {
-        fill: #FFC531;
+        fill: #231f20;
       }
     </style>
     <linearGradient id="linear-gradient" x1="34.74" y1="43.21" x2="39.06" y2="23.89" gradientUnits="userSpaceOnUse">

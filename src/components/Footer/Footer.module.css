@@ -1,0 +1,115 @@
+
+.footer {
+  background-color: #2b4170;
+  color: #f7f7f7;
+  padding: 15px 20px;
+  margin-top: 25px;
+  text-align: center;
+  border-top: 1px solid rgb(124, 146, 176);
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  margin-right: 20px;
+  width: 100px;
+}
+
+/* Nav section */
+/* .navSection {
+  padding-top: 5px;
+} */
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.navItem {
+  color: #f7f7f7;
+  transition: color 0.3s ease;
+}
+
+.navItem:hover {
+  color: #FFC531;
+}
+
+/* Contact and address styling */
+.headerAddress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  color: #f5f7fa;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.contactItem:hover,
+.contactItem:focus {
+  color: #FFC531;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+/* Logo active state */
+.logoActive {
+  fill: #FFC531;
+}
+
+/* Copyright styling */
+.copyright {
+  margin-top: 10px;
+  border-top: 1px solid rgb(124, 146, 176);
+  padding-top: 20px;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+
+
+
+/* 
+.socialSection {
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socialIcons a {
+  color: #f7f7f7;
+  font-size: 1.5rem;
+}
+
+.socialIcons a:hover {
+  color: #FFC531;
+} */

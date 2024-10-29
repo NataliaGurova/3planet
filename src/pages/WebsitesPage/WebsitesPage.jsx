@@ -12,7 +12,6 @@ const WebsitesPage = () => {
           <Loader />
         ) : (
           <> */}
-        {/* <h2>Наші партнери</h2> */}
         <Websites/>
           {/* </>
         )} */}

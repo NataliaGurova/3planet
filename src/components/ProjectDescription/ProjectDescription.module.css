@@ -1,6 +1,8 @@
 .itemContainer {
 display: flex;
+margin: 0 auto;
 margin-top: 15px;
+width: 1200px;
 }
 
 .divImgCard {

@@ -59,7 +59,6 @@ const ProjectsDetailsPage = () => {
           <Loader />
         ) : (
           <> */}
-        {/* <h1>ProjectsDetailsPage {projectsId}</h1> */}
         <ProjectDescription project={project} />
           {/* </>
         )} */}

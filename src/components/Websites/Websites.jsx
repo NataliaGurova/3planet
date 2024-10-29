@@ -32,6 +32,11 @@ const Websites = () => {
           <a href="https://geekach.com.ua/" target="_blank" rel="noopener noreferrer" className={css.link}>https://geekach.com.ua/</a>
         </li>
 
+          <li className={css.listItem}>          
+          <a href="https://planeta-igr.com/" target="_blank" rel="noopener noreferrer" className={css.link}>Планета Ігор</a>
+          <a href="https://planeta-igr.com/" target="_blank" rel="noopener noreferrer" className={css.link}>https://planeta-igr.com/</a>
+        </li>
+
       </ul>
     </div>
   );

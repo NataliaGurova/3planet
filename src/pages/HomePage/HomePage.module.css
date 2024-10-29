@@ -5,3 +5,25 @@
     max-width: 1392px;
     margin: 0 auto;
 }
+
+.homeImage {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+
+}
+
+.homeContainer {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.homeImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}

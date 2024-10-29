@@ -41,8 +41,6 @@ const ProjectsPage = () => {
     <>
       <DocTitle>Projects</DocTitle>
       <div className={css.projectContainer}>
-        {/* <h2 className={css.text}>Проекти</h2> */}
-        {/* <ProjectsList projects={projects} /> */}
         {projects.length > 0 && <ProjectsList projects={projects} />}       
       </div>
     </>
