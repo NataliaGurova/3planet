@@ -7,13 +7,13 @@ import css from "./HomePage.module.css"
 import { useState, useEffect } from 'react';
 
 
-const images = [
-  "/images/news-play.png",
-  "/src/images/news-play2.png"
-];
-
 const HomePage = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
+  const images = [
+    "/images/news-play.png",
+    "/src/images/news-play2.png"
+  ];
 
   useEffect(() => {
     const intervalId = setInterval(() => {
