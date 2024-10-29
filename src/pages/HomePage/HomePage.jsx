@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 
 
 const images = [
-  "/src/images/news-play.png",
+  "/images/news-play.png",
   "/src/images/news-play2.png"
 ];
 
@@ -38,19 +38,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-// const HomePage = () => {
-//   return (
-//     <main>
-//       <DocTitle>3 Planet - рекламний опис...</DocTitle>
-//       <div className={css.homeContainer}>
-        
-//         <img src="/src/images/news-play.png" alt="" className={css.homeImage}/>
-//         <img src="/src/images/news-play2.png" alt="" className={css.homeImage}/>
-//         {/* <PhotoList/> */}
-//       </div>
-//     </main>
-//   );
-// };
-
-// export default HomePage;
