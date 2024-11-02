@@ -31,12 +31,17 @@ const Footer = () => {
           </address>
         </div>
 
-        <div className={css.navSection}>
-          <ul className={css.navList}>
+        <nav className={css.navContainer}>
+          <NavLink to="/projects" className={css.navLink}>Проєкти</NavLink>
+          <NavLink to="/websites" className={css.navLink}>Партнери</NavLink>
+        </nav>
+
+        {/* <div className={css.navSection}> */}
+          {/* <ul className={css.navList}>
             <li className={css.navItem}><a href="/projects">Проєкти</a></li>
             <li className={css.navItem}><a href="/websites">Партнери</a></li>
-          </ul>
-        </div>
+          </ul> */}
+        {/* </div> */}
 
         {/* <div className={css.socialSection}>
           <h4>Follow Us</h4>

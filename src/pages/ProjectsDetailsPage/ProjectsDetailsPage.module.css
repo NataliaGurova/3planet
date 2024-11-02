@@ -1,5 +1,5 @@
 .detailsContainer {
-    padding: 15px 40px;
+    padding: 15px 40px 40px 40px;
     max-width: 1392px;
     margin: 0 auto;
 }
@@ -7,6 +7,7 @@
 .arrowIcon {
   transform: scaleX(-1);
   margin-left: 40px;
+  transition: all 0.3s ease;
 }
 
 .arrowIcon:focus, .arrowIcon:hover {

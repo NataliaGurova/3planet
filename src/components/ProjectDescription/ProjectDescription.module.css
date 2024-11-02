@@ -55,12 +55,13 @@ width: 1200px;
 }
 
 .textDescription {
-  width: 900px; /* або будь-яка інша ширина */
+  width: 860px; /* або будь-яка інша ширина */
   word-wrap: break-word; /* Переносити слова, якщо вони довші за ширину контейнера */
   font-family: "PT Serif", serif;
   font-size: 18px;
   font-weight: 400;
-
+  line-height: 1.8;
+  letter-spacing: 0.01em;
   /* border-radius: 15px;
   border: 2px solid #2b4170;
   background-color: rgba(43, 65, 112, 0.5); */

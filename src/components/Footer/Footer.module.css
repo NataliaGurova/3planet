@@ -1,53 +1,28 @@
 
 .footer {
-  position: relative;
-  bottom: 0;
   background-color: #2b4170;
   color: #f7f7f7;
   padding: 15px 20px;
-  margin-top: 25px;
   text-align: center;
   border-top: 1px solid rgb(124, 146, 176);
 }
 
 .footerContainer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  max-width: 1200px;
+  
+  max-width: 335px;
   margin: 0 auto;
 }
 
 .logoSection {
   display: flex;
-  align-items: center;
 }
 
 .logoContainer {
   margin-right: 20px;
   width: 100px;
-}
-
-/* Nav section */
-/* .navSection {
-  padding-top: 5px;
-} */
-
-.navList {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 8px;
-}
-
-.navItem {
-  color: #f7f7f7;
-  transition: color 0.3s ease;
-}
-
-.navItem:hover {
-  color: #FFC531;
 }
 
 /* Contact and address styling */
@@ -61,8 +36,7 @@
 .contactItem {
   display: flex;
   align-items: center;
-  color: #f5f7fa;
-  text-decoration: none;
+  font-size: 14px;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
@@ -81,6 +55,21 @@
   fill: #FFC531;
 }
 
+/* Nav section */
+.navContainer { 
+  display: flex;
+  gap: 40px;
+}
+
+.navLink {
+  color: #f7f7f7;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #FFC531;
+}
+
 /* Copyright styling */
 .copyright {
   margin-top: 10px;
@@ -94,24 +83,24 @@
 }
 
 
-
-
-/* 
-.socialSection {
-  text-align: center;
+@media screen and (min-width: 768px) {
+  .footerContainer {  
+  max-width: 768px;
+  flex-direction: row;
 }
 
-.socialIcons {
+.navContainer { 
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  margin-left: auto;
+  row-gap: 0;
+  gap: 10px;
+}
 }
 
-.socialIcons a {
-  color: #f7f7f7;
-  font-size: 1.5rem;
-}
 
-.socialIcons a:hover {
-  color: #FFC531;
-} */
+@media screen and (min-width: 1392px) {
+    .footerContainer {  
+  max-width: 1392px;
+}
+}

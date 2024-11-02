@@ -30,6 +30,7 @@ body {
   background: var(--background);
   color: var(--main-text);
 
+  /* width: 320px; */
 
     background-image: url(./images/sky01.jpg);
     background-size: cover;
@@ -90,6 +91,18 @@ input {
 * {
     box-sizing: border-box;
 }
+/* 
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+  }
+} */
 
 
 /* 

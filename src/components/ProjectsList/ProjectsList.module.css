@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
 }
 
 .itemProjects {
@@ -38,7 +38,6 @@
 .divImgProjects {
   background-color: white;
   width: 217px;
-
 }
 
 .imgProjects {
@@ -58,7 +57,7 @@ align-items: flex-end;
 .textProjects {
   padding: 10px 10px 0 10px; /* Відступи всередині заголовка */
   text-align: center; /* Вирівнювання тексту по центру */
-  text-shadow:  2px 2px 1px rgb(132, 5, 27);;
+  text-shadow:  2px 2px 1px rgb(132, 5, 27);
 }
 
 

@@ -1,9 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout/Layout";
-import HomePage from "./pages/HomePage/HomePage";
-import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
-import WebsitesPage from "./pages/WebsitesPage/WebsitesPage";
-import ProjectsDetailsPage from "./pages/ProjectsDetailsPage/ProjectsDetailsPage";
+import { lazy } from "react";
+// import HomePage from "./pages/HomePage/HomePage";
+// import ProjectsDetailsPage from "./pages/ProjectsDetailsPage/ProjectsDetailsPage";
+// import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
+// import WebsitesPage from "./pages/WebsitesPage/WebsitesPage";
+
+const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
+const ProjectsDetailsPage = lazy(() => import("./pages/ProjectsDetailsPage/ProjectsDetailsPage"));
+const ProjectsPage = lazy(() => import("./pages/ProjectsPage/ProjectsPage"));
+const WebsitesPage = lazy(() => import("./pages/WebsitesPage/WebsitesPage"));
 
 const App = () => {
 

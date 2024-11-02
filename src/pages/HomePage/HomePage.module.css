@@ -1,22 +1,20 @@
+
 .homeContainer {
   display: flex;
-    /* gap: 32px; */
-    padding: 40px;
-    max-width: 1392px;
-    margin: 0 auto;
+  padding: 40px;
+  max-width: 335px; /* width 320px  */
+  margin: 0 auto;
 }
 
 .homeImage {
   display: flex;
   margin: 0 auto;
-  width: 1200px;
-
+  width: 320px;
 }
 
 .homeContainer {
   position: relative;
   width: 100%;
-  max-width: 600px;
   height: 400px;
   margin: 0 auto;
 }
@@ -26,4 +24,32 @@
   height: 100%;
   object-fit: cover;
   transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .homeContainer {
+    max-width: 768px;
+}
+
+.homeImage {
+  width: 768px;
+}
+
+.homeContainer {
+  max-width: 600px;
+}
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+  .homeContainer {
+    max-width: 1440px;
+    max-width: 1392px;
+  }
+  
+.homeImage {
+  width: 1200px;
+}
 }
