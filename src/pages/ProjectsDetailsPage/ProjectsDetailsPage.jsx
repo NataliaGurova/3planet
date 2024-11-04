@@ -52,7 +52,7 @@ const ProjectsDetailsPage = () => {
 
   return (
     <>
-      <DocTitle>ProjectsDetailsPage</DocTitle>
+      <DocTitle>Третя Планета - Настільна гра {project.name }</DocTitle>
       <div className={css.detailsContainer}>
         <Link to={backLinkRef.current}><BsHeartArrow size="40px" className={css.arrowIcon}/></Link>
         {/* {loading ? (

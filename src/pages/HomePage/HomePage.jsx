@@ -23,10 +23,17 @@ const HomePage = () => {
     return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, []);
 
-  return (
+   return (
     <main>
-      <DocTitle>3 Planet - рекламний опис...</DocTitle>
+      <DocTitle>Третя Планета - Видавництво настільних ігор</DocTitle>
       <div className={css.homeContainer}>
+        <div className={css.textContainer}>
+          <h1 className={css.title}>Видавництво "3 Планета"</h1>
+          <p className={css.description}>
+            Ми займаємось виданням і популяризацією захоплюючих настільних ігор для всієї родини.
+            Наша місія - створювати світ розваг і відкриттів, де кожен знайде свою улюблену гру.
+          </p>
+        </div>
         <img 
           src={images[currentImageIndex]} 
           alt={`Slide ${currentImageIndex + 1}`} 

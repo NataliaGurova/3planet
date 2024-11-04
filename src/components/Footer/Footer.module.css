@@ -2,7 +2,7 @@
 .footer {
   background-color: #2b4170;
   color: #f7f7f7;
-  padding: 15px 20px;
+  padding: 15px;
   text-align: center;
   border-top: 1px solid rgb(124, 146, 176);
 }
@@ -11,26 +11,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  max-width: 335px;
+
+  max-width: 375px;
   margin: 0 auto;
 }
 
-.logoSection {
-  display: flex;
-}
 
 .logoContainer {
-  margin-right: 20px;
-  width: 100px;
+  display: none;
 }
 
 /* Contact and address styling */
-.headerAddress {
+.addressFooter {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 15px;
 }
 
 .contactItem {
@@ -56,9 +53,8 @@
 }
 
 /* Nav section */
-.navContainer { 
-  display: flex;
-  gap: 40px;
+.navFooter { 
+  display: none;
 }
 
 .navLink {
@@ -72,9 +68,9 @@
 
 /* Copyright styling */
 .copyright {
-  margin-top: 10px;
   border-top: 1px solid rgb(124, 146, 176);
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .copyright p {
@@ -84,23 +80,42 @@
 
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding: 15px 40px;
+  }
+
   .footerContainer {  
   max-width: 768px;
   flex-direction: row;
 }
 
-.navContainer { 
+
+.logoSection {
+  display: flex;
+}
+
+.logoContainer {
+
+display: flex;
+
+  margin-right: 20px;
+  width: 100px;
+}
+
+
+.navFooter { 
   display: flex;
   flex-direction: column;
+  align-items: end;
   margin-left: auto;
-  row-gap: 0;
+  /* row-gap: 0; */
   gap: 10px;
 }
 }
 
 
-@media screen and (min-width: 1392px) {
+@media screen and (min-width: 1440px) {
     .footerContainer {  
-  max-width: 1392px;
+  max-width: 1440px;
 }
 }

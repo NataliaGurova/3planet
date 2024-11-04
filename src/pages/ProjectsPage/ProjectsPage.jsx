@@ -39,7 +39,7 @@ const ProjectsPage = () => {
 
   return (
     <>
-      <DocTitle>Projects</DocTitle>
+      <DocTitle>Третя Планета - Наші проєкти</DocTitle>
       <div className={css.projectContainer}>
         {projects.length > 0 && <ProjectsList projects={projects} />}       
       </div>

@@ -1,5 +1,6 @@
 import css from './Footer.module.css';
 import { FaPhone } from 'react-icons/fa6';
+import { IoMdMailOpen } from "react-icons/io";
 // import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaPhone } from 'react-icons/fa';
 import logo1 from '../../images/3Planet-Logo-red.svg';
 import { SiMinutemailer } from 'react-icons/si';
@@ -19,19 +20,19 @@ const Footer = () => {
               <img src={logo1} alt="Logo 1" className={css.logoImage} />
             </div>
           </NavLink>
-          <address className={css.headerAddress}>
+          <address className={css.addressFooter}>
             <div className={css.contactItem}>
               <FaPhone size="15" className={css.icon} />
               <a href="tel:+380972391091">+38 (097) 239-10-91</a>
             </div>
             <div className={css.contactItem}>
-              <SiMinutemailer size="20" className={css.icon} />
+              <IoMdMailOpen size="20" className={css.icon} />
               <a href="mailto:example@example.com">example@example.com</a>
             </div>
           </address>
         </div>
 
-        <nav className={css.navContainer}>
+        <nav className={css.navFooter}>
           <NavLink to="/projects" className={css.navLink}>Проєкти</NavLink>
           <NavLink to="/websites" className={css.navLink}>Партнери</NavLink>
         </nav>

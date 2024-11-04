@@ -6,7 +6,7 @@ const WebsitesPage = () => {
   console.log("WebsitesPage");
   return (
     <>
-      <DocTitle>Websites</DocTitle>
+      <DocTitle>Третя Планета - Наші партнери</DocTitle>
       <div className={css.webContainer}>
         {/* {loading ? (
           <Loader />
