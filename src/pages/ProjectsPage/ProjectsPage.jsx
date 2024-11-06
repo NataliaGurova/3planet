@@ -7,7 +7,7 @@ import { getProjects } from "../../api/api";
 const ProjectsPage = () => {
     
   const [projects, setProjects] = useState([]); // Зберігаємо проекти в стані
-  const [loading, setLoading] = useState(true); // Стан завантаження
+  // const [loading, setLoading] = useState(true); // Стан завантаження
   const [error, setError] = useState(null); // Стан для обробки помилок
 
 
@@ -17,19 +17,19 @@ const ProjectsPage = () => {
       try {
         const fetchedProjects = await getProjects(); // Отримуємо проекти
         setProjects(fetchedProjects); // Оновлюємо стан проектів
-        setLoading(false); // Оновлюємо стан завантаження
+        // setLoading(false); // Оновлюємо стан завантаження
       } catch (error) {
         setError(error.message); // Якщо виникає помилка
-        setLoading(false);
+        // setLoading(false);
       }
   };
 
     fetchProjects();
   }, []); // Порожній масив залежностей, щоб виконати запит лише один раз при завантаженні компонента
 
-  if (loading) {
-    return <p>Завантаження...</p>; // Відображаємо повідомлення про завантаження
-  }
+  // if (loading) {
+  //   return <p>Завантаження...</p>; // Відображаємо повідомлення про завантаження
+  // }
 
   if (error) {
     return <p>Помилка завантаження проектів: {error.message}</p>; // Відображаємо повідомлення про помилку
