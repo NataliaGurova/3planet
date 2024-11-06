@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-width: 100vw;
   /* min-height: calc(100vh - 150px); */
   min-height: calc(100vh - var(--header-height) - var(--footer-height));
   /* min-height: calc(100vh - var(--header-height) - var(--footer-height));
