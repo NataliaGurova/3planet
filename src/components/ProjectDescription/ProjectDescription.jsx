@@ -11,7 +11,7 @@ const ProjectDescription = ({ project }) => {
   const { imageSmall, name, nameLogo, description, players, timer, age } = project;
 
   return (
-    <main className={css.itemContainer}>
+    <div className={css.itemContainer}>
       <div className={css.card}>
         <div className={css.divImgCard}>
           <img src={imageSmall} alt={name} className={css.imgCard}/>
@@ -37,7 +37,7 @@ const ProjectDescription = ({ project }) => {
         <img src={nameLogo} alt={name} className={css.imgLogoM}/>
         <p className={css.textDescription}>{description}</p>
       </div>
-    </main>
+    </div>
   );
 };
 

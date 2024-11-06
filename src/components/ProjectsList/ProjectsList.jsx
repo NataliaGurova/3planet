@@ -10,8 +10,6 @@ const ProjectsList = ({projects}) => {
   const location = useLocation();
 
   return (
-    <div className={css.projectsSection}>
-      <div className={css.container}>
         <ul className={css.listProjects}>
           {projects.map((project) => (
               <li key={project.id} className={css.itemProjects}>
@@ -33,9 +31,7 @@ const ProjectsList = ({projects}) => {
               </li>
             ))
           }
-        </ul>
-      </div>
-    </div>
+        </ul>  
   );
 };
 

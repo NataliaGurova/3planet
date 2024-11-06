@@ -1,9 +1,17 @@
+
 .itemContainer {
 display: flex;
-margin: 0 auto;
-margin-top: 15px;
-width: 1200px;
+flex-direction: column;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
 
 .divImgCard {
   display: flex;
@@ -25,7 +33,7 @@ width: 1200px;
 .iconList {
   display: flex;
   width: 230px;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: space-between;
   border-radius: 5px;
   border: 2px solid #2b4170;
@@ -34,7 +42,6 @@ width: 1200px;
 }
 
 .iconItem {
-  /* outline: 2px solid red; */
   display: flex;
   flex-direction: column;
   width: 50px;
@@ -42,7 +49,141 @@ width: 1200px;
   align-items: center;
 }
 
+
 .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: 340px;
+
+  margin-top: 40px;
+  padding: 20px;
+
+  color: #2b4170;
+  background-color: rgba(222, 227, 238, 0.7);
+}
+
+.imgLogoM {
+  margin: auto;
+  width: 270px;
+}
+
+.textDescription {
+  width: 280px; /* або будь-яка інша ширина */
+  word-wrap: break-word; /* Переносити слова, якщо вони довші за ширину контейнера */
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  margin-top: 10px;
+
+}
+
+@media screen and (min-width: 768px) {
+  .itemContainer {
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.card {
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.iconList {
+  margin-top: 40px;
+}
+
+.description {
+  width: 420px;
+  margin: 0;
+  margin-left: auto;
+}
+
+.imgLogoM {
+  width: 300px;
+}
+
+.textDescription {
+  width: 380px; /* або будь-яка інша ширина */
+  margin-top: 10px;
+}
+
+}
+@media screen and (min-width: 1024px) {
+  .description {
+  width: 670px;
+  padding: 40px;
+}
+
+.imgLogoM {  
+  width: 470px;
+}
+
+.textDescription {
+  width: 590px; /* або будь-яка інша ширина */
+  font-size: 18px;
+}
+
+}
+@media screen and (min-width: 1440px) {
+    .description {
+  width: 1040px;
+}
+
+.textDescription {
+  width: 1000px; /* або будь-яка інша ширина */
+}
+}
+
+/* 
+.itemContainer {
+display: flex;
+margin: 0 auto;
+margin-top: 15px;
+width: 1200px;
+} */
+/* 
+.divImgCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 230px;
+  height: 260px;
+  
+  border-radius: 5px;
+} */
+
+/* .imgCard { */
+  /* margin: 20px; */
+  /* width: 215px; */
+  /* height: 240px;
+} */
+
+/* .iconList {
+  display: flex;
+  width: 230px;
+  margin-top: 40px;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 2px solid #2b4170;
+  background-color: rgba(43, 65, 112, 0.5);
+  padding: 5px;
+} */
+
+/* .iconItem {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  
+  align-items: center;
+} */
+
+/* .description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,29 +193,35 @@ width: 1200px;
   margin-left: auto;
   padding: 30px;
   background-color: rgba(222, 227, 238, 0.7);
-}
-
-.textDescription {
-  width: 860px; /* або будь-яка інша ширина */
-  word-wrap: break-word; /* Переносити слова, якщо вони довші за ширину контейнера */
-  font-family: "PT Serif", serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.8;
-  letter-spacing: 0.01em;
-  /* border-radius: 15px;
-  border: 2px solid #2b4170;
-  background-color: rgba(43, 65, 112, 0.5); */
-  padding: 10px;
-  margin-top: 20px;
-}
+} */
 
 .imgLogoM {
   /* height: 260px; */
-  width: 470px;
-  margin: auto;
+  /* width: 470px;
+  margin: auto; */
   /* border-radius: 15px; */
   /* background-color: rgba(222, 227, 238, 0.9); */
   /* border: 2px solid #2b4170; */
   
 }
+
+.textDescription {
+  /* width: 860px; 
+  word-wrap: break-word;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  padding: 10px;
+  margin-top: 20px; */
+
+
+
+  /* border-radius: 15px;
+  border: 2px solid #2b4170;
+  background-color: rgba(43, 65, 112, 0.5); */
+}
+
+
+

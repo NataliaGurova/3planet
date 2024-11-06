@@ -51,20 +51,15 @@ const ProjectsDetailsPage = () => {
   }
 
   return (
-    <>
+    <main className={css.mainContainer}>
       <DocTitle>Третя Планета - Настільна гра {project.name }</DocTitle>
       <div className={css.detailsContainer}>
         <Link to={backLinkRef.current}><BsHeartArrow size="40px" className={css.arrowIcon}/></Link>
-        {/* {loading ? (
-          <Loader />
-        ) : (
-          <> */}
+
         <ProjectDescription project={project} />
-          {/* </>
-        )} */}
-      
       </div>
-    </>
+      
+    </main>
   );
   
 };

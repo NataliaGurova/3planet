@@ -38,12 +38,12 @@ const ProjectsPage = () => {
   console.log(projects);
 
   return (
-    <>
+    <main className={css.mainContainer}>
       <DocTitle>Третя Планета - Наші проєкти</DocTitle>
       <div className={css.projectContainer}>
         {projects.length > 0 && <ProjectsList projects={projects} />}       
       </div>
-    </>
+    </main>
   );
   
 };

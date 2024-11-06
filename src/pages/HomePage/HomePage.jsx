@@ -24,11 +24,11 @@ const HomePage = () => {
   }, []);
 
    return (
-    <main>
+    <main className={css.mainContainer}>
       <DocTitle>Третя Планета - Видавництво настільних ігор</DocTitle>
       <div className={css.homeContainer}>
         <div className={css.textContainer}>
-          <h1 className={css.title}>Видавництво "3 Планета"</h1>
+          <h1 className={css.title}>Видавництво "Третя Планета"</h1>
           <p className={css.description}>
             Ми займаємось виданням і популяризацією захоплюючих настільних ігор для всієї родини.
             Наша місія - створювати світ розваг і відкриттів, де кожен знайде свою улюблену гру.
