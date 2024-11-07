@@ -1,11 +1,6 @@
 
 .mainContainer {
-    background-image: url(../../images/sky01.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    padding-bottom: 150px;
 }
 
 .projectContainer {
