@@ -1,14 +1,14 @@
 
-import css from "./ProjectDescription.module.css";
+import css from "./ProjectItem.module.css";
 import { BsPeopleFill } from "react-icons/bs";
 import { GiEmptyHourglass } from "react-icons/gi";
 import { MdChildCare } from "react-icons/md";
 
-const ProjectDescription = ({ project }) => {
 
+const ProjectItem = ({ project }) => {
 
   // Деструктуруємо поля проекту
-  const { imageSmall, name, nameLogo, description, players, timer, age } = project;
+  const { imageSmall, name, nameLogo, description, players, timer, age, rules } = project;
 
   return (
     <div className={css.itemContainer}>
@@ -17,6 +17,9 @@ const ProjectDescription = ({ project }) => {
           <img src={imageSmall} alt={name} className={css.imgCard}/>
         </div>
         {/* <div> */}
+
+
+      
           <ul className={css.iconList}>
             <li className={css.iconItem}>
               <BsPeopleFill size="30px"/>
@@ -36,12 +39,13 @@ const ProjectDescription = ({ project }) => {
       <div className={css.description}>
         <img src={nameLogo} alt={name} className={css.imgLogoM}/>
         <p className={css.textDescription}>{description}</p>
+        {/* <p>{rules}</p>; */}
       </div>
     </div>
   );
 };
 
-export default ProjectDescription;
+export default ProjectItem;
 
 
 

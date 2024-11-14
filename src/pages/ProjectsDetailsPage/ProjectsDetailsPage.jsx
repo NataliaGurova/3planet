@@ -1,8 +1,8 @@
 import { useLocation, useParams } from "react-router";
 import DocTitle from "../../components/DocTitle/DocTitle";
-import ProjectDescription from "../../components/ProjectDescription/ProjectDescription";
+import ProjectItem from "../../components/ProjectItem/ProjectItem";
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { getProjectById } from "../../api/api";
 import css from "./ProjectsDetailsPage.module.css";
 import { BsHeartArrow } from "react-icons/bs";
@@ -23,6 +23,7 @@ const ProjectsDetailsPage = () => {
   // Використовуємо useEffect для завантаження проекту при зміні projectId
   useEffect(() => {
     const fetchProject = async () => {
+      if (!projectId) return;
       try {
         const fetchedProject = await getProjectById(projectId); // Отримуємо проект за ID
         console.log(projectId);
@@ -56,7 +57,24 @@ const ProjectsDetailsPage = () => {
       <div className={css.detailsContainer}>
         <Link to={backLinkRef.current}><BsHeartArrow size="40px" className={css.arrowIcon}/></Link>
 
-        <ProjectDescription project={project} />
+        <ProjectItem project={project} />
+        {/* =====ddddd */}
+              {/* <ul>
+        <li>
+          <Link to="description">Description</Link>
+        </li>
+        <li>
+          <Link to="rules">Rules</Link>
+          </li> */}
+          {/* <li> */}
+            {/* <NavLink to="reviews" className={buildLinkClass}> */}
+            {/* <Link to="reviews">
+              Reviews
+            </Link>
+          </li> */}
+        {/* </ul> */}
+
+        {/* <Outlet /> */}
       </div>
       
     </main>

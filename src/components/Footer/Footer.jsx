@@ -63,7 +63,7 @@ const Footer = () => {
         </div> */}
       </div>
       <div className={css.copyright}>
-        <p>© 2024 3Planet. Усі права захищені</p>
+        <p>© 2024 3-Planet. Усі права захищені</p>
       </div>
     </footer>
   );
