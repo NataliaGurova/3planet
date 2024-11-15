@@ -3,6 +3,7 @@ import css from "./ProjectItem.module.css";
 import { BsPeopleFill } from "react-icons/bs";
 import { GiEmptyHourglass } from "react-icons/gi";
 import { MdChildCare } from "react-icons/md";
+import { Link, Outlet } from "react-router-dom";
 
 
 const ProjectItem = ({ project }) => {
@@ -17,9 +18,6 @@ const ProjectItem = ({ project }) => {
           <img src={imageSmall} alt={name} className={css.imgCard}/>
         </div>
         {/* <div> */}
-
-
-      
           <ul className={css.iconList}>
             <li className={css.iconItem}>
               <BsPeopleFill size="30px"/>
@@ -33,13 +31,22 @@ const ProjectItem = ({ project }) => {
               <MdChildCare size="30px"/>
               <p>{age}</p>
             </li>
-          </ul>
+        </ul>
+
+        
+<p className={css.textRules}>
+  <a href={rules} target="_blank" rel="noopener noreferrer">
+    Правила <br />{name}
+  </a>
+</p>
+
+
         {/* </div> */}
       </div>
       <div className={css.description}>
         <img src={nameLogo} alt={name} className={css.imgLogoM}/>
         <p className={css.textDescription}>{description}</p>
-        {/* <p>{rules}</p>; */}
+        
       </div>
     </div>
   );

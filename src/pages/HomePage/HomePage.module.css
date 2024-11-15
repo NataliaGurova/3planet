@@ -30,6 +30,9 @@
 }
 
 .description {
+  display: inline-block;
+  width: 355px;
+  text-align: center;
   font-size: 1.1rem;
   /* color: #444; */
   margin-top: 10px;
@@ -69,6 +72,12 @@
 
 .title {
   /*  міняти шрифт */
+  width: 688px;
+}
+
+.description {
+  width: 688px;
+  
 }
 
 .homeImage {
@@ -90,6 +99,10 @@
   .title {
   width: 768px;
 }
+
+.description {
+  width: 800px;
+}
   
 .homeImage {
   width: 1024px;
@@ -102,6 +115,10 @@
   .homeContainer {
     max-width: 1440px;
   }
+
+  .description {
+  width: 1000px;
+}
   
 .homeImage {
   width: 1200px;

@@ -1,9 +1,12 @@
-import { useParams } from "react-router-dom";
+import { useOutletContext, useParams } from "react-router-dom";
 import css from "./Description.module.css"
 import { useEffect, useState } from "react";
 
 const Description = () => {
-
+  const contextData = useOutletContext();
+  const descriptionItem = contextData.project.description;
+  console.log(descriptionItem);
+  
 // const [project, setProject] = useState(null);
 //   const { projectId } = useParams();
 
@@ -32,7 +35,7 @@ const Description = () => {
 //   console.log(project);
   
   return (
-    <p className={css.textDescription}>description</p>
+    <p className={css.textDescription}>{descriptionItem}</p>
     
   )
 }

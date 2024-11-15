@@ -58,13 +58,14 @@ const ProjectsDetailsPage = () => {
         <Link to={backLinkRef.current}><BsHeartArrow size="40px" className={css.arrowIcon}/></Link>
 
         <ProjectItem project={project} />
-        {/* =====ddddd */}
-              {/* <ul>
-        <li>
-          <Link to="description">Description</Link>
-        </li>
-        <li>
-          <Link to="rules">Rules</Link>
+
+        {/* =====ddddd====== */}
+        {/* <ul>
+          <li>
+            <Link to="description">Description</Link>
+          </li>
+          <li>
+            <Link to="rules">Rules</Link>
           </li> */}
           {/* <li> */}
             {/* <NavLink to="reviews" className={buildLinkClass}> */}
@@ -73,10 +74,9 @@ const ProjectsDetailsPage = () => {
             </Link>
           </li> */}
         {/* </ul> */}
+        {/* <Outlet context={{ project }} /> */}
 
-        {/* <Outlet /> */}
-      </div>
-      
+      </div>      
     </main>
   );
   

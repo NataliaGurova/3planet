@@ -1,8 +1,10 @@
 import { useOutletContext } from 'react-router-dom';
 
 const Rules = () => {
-  const { project } = useOutletContext();
-  return <p>rules</p>;
+    const contextData = useOutletContext();
+  const rulesItem = contextData.project.rules;
+  console.log(rulesItem);
+  return <p>{ rulesItem }</p>
 };
 
 export default Rules;

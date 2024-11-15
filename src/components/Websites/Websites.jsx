@@ -7,7 +7,10 @@ const Websites = () => {
       <ul className={css.list}>
 
         <li className={css.listItem}>          
-          <a href="https://domigr.com.ua/" target="_blank" rel="noopener noreferrer" className={css.link}>Dom Igr</a>
+          <a href="https://domigr.com.ua/" target="_blank" rel="noopener noreferrer" className={css.link}>
+            <img src="/public/logo-DI.svg" alt="Icon" width="150"></img>
+            
+          </a>
           {/* <a href="https://domigr.com.ua/" target="_blank" rel="noopener noreferrer" className={css.link}>https://domigr.com.ua/</a> */}
         </li>
 

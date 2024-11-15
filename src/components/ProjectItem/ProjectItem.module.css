@@ -81,6 +81,14 @@ flex-direction: column;
 
 }
 
+.textRules {
+  margin-top: 40px;
+}
+
+.textRules:hover, .textRules:focus {
+  color: #FFC531;
+}
+
 @media screen and (min-width: 768px) {
   .itemContainer {
   flex-direction: row;
