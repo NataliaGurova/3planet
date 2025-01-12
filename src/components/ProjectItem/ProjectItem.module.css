@@ -36,7 +36,7 @@ flex-direction: column;
   margin-top: 20px;
   justify-content: space-between;
   border-radius: 5px;
-  border: 2px solid #2b4170;
+  border: 1px solid #2b4170;
   background-color: rgba(43, 65, 112, 0.5);
   padding: 5px;
 }
@@ -82,11 +82,17 @@ flex-direction: column;
 }
 
 .textRules {
-  margin-top: 40px;
+  width: 230px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .textRules:hover, .textRules:focus {
   color: #FFC531;
+}
+
+.rulesSpan {
+  /* margin-left: 40px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -118,6 +124,12 @@ flex-direction: column;
 .textDescription {
   width: 380px; /* або будь-яка інша ширина */
   margin-top: 10px;
+}
+
+.textRules {
+  width: 260px;
+  margin-top: 40px;
+  text-align: start;
 }
 
 }

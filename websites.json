@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "DimIgor",
+    "logo": "/logo/logo-DI.svg",
+    "url": "https://domigr.com.ua/"
+  },
+  {
+    "id": "2",
+    "title": "Lord of Boards",
+    "logo": "//logo/logo-DI.svg",
+    "url": "https://lordofboards.com.ua/"
+  },
+  {
+    "id": "3",
+    "title": "IgroMag",
+    "logo": "//logo/logo-DI.svg",
+    "url": "https://desktopgames.com.ua/"
+  },
+  {
+    "id": "4",
+    "title": "Geekach",
+    "logo": "//logo/logo-DI.svg",
+    "url": "https://geekach.com.ua/"
+  },
+  {
+    "id": "5",
+    "title": "Планета Ігор",
+    "logo": "/logo/logo-PlanetaIgor.png",
+    "url": "https://planeta-igr.com/"
+  },
+    {
+    "id": "6",
+    "title": "Gambit",
+    "logo": "/logo/logo-Gambit.svg",
+    "url": "https://www.facebook.com/gambitlviv1/?locale=uk_UA"
+  }
+]

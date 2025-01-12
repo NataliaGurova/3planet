@@ -6,10 +6,10 @@ import Footer from '../Footer/Footer';
 
 export const Layout = ({ children }) => {
   return (
-    <>
+    <div>
       <Navigation />
       <Suspense fallback={<Loader />}>{children}</Suspense>
       <Footer/>
-    </>
+    </div>
   );
 };

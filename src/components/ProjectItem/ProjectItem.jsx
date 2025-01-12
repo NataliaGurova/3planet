@@ -36,7 +36,7 @@ const ProjectItem = ({ project }) => {
         
 <p className={css.textRules}>
   <a href={rules} target="_blank" rel="noopener noreferrer">
-    Правила <br />{name}
+    Правила <br /><span className={css.rulesSpan}>{name}</span>
   </a>
 </p>
 
